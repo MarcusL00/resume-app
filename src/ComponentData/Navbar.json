@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Home",
+        "route": "home"
+    },
+    {
+        "title": "Project",
+        "route": "project"
+    },
+    {
+        "title": "Education",
+        "route": "education"
+    },
+    {
+        "title": "Contact",
+        "route": "contact"
+    },
+    {
+        "title": "About",
+        "route": "aboutMe"
+
+    }
+  ]

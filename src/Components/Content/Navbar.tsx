@@ -1,10 +1,22 @@
+import { NavLink } from "react-router-dom";
+import "./Navbar.scss";
 
-import './Navbar.scss'
+export type navbarLinks = { title: string; route: string }[];
 
-function Navbar() {
-  return (
-    <div>Navbar</div>
-  )
+interface NavbarProps {
+  links: navbarLinks;
 }
 
-export default Navbar
+const Navbar: React.FC<NavbarProps> = ({ links }) => {
+  return (
+    <ul className="navbar">
+      {links.map((link) => (
+        <NavLink to={link.route} className="navbar--link">
+          <p className="navbar--link__title">{link.title}</p>
+        </NavLink>
+      ))}
+    </ul>
+  );
+};
+
+export default Navbar;

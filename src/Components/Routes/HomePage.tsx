@@ -1,10 +1,8 @@
 
-import './HomePage.scss'
+import "./HomePage.scss";
 
 function HomePage() {
-  return (
-    <div>HomePage</div>
-  )
+  return <></>;
 }
 
-export default HomePage
+export default HomePage;
