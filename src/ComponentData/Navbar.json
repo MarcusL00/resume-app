@@ -4,20 +4,20 @@
         "route": "home"
     },
     {
-        "title": "Project",
-        "route": "project"
+        "title": "About",
+        "route": "aboutMe"
+
     },
     {
         "title": "Education",
         "route": "education"
     },
     {
-        "title": "Contact",
-        "route": "contact"
+        "title": "Project",
+        "route": "project"
     },
     {
-        "title": "About",
-        "route": "aboutMe"
-
+        "title": "Contact",
+        "route": "contact"
     }
   ]

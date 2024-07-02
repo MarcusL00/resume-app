@@ -9,13 +9,15 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ links }) => {
   return (
-    <ul className="navbar">
-      {links.map((link) => (
-        <NavLink to={link.route} className="navbar--link">
-          <p className="navbar--link__title">{link.title}</p>
-        </NavLink>
-      ))}
-    </ul>
+    <div className="navbar">
+      <ul className="navbar-content">
+        {links.map((link) => (
+          <NavLink to={link.route} className="navbar--link">
+            <p className="navbar--link__title">{link.title}</p>
+          </NavLink>
+        ))}
+      </ul>
+    </div>
   );
 };
 

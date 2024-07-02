@@ -1,9 +1,21 @@
-.Navbar-content{
-    background-color: #A9C5A0;
+.navbar{
     width: 100vw;
-    height: 5vh;
-    padding-top: 0;
+    background: linear-gradient(to top, #A79277, #EAD8C0);
+}
+.navbar-content{
     margin-top: 0;
-    place-self: center;
-    
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 4rem;
+    font-family: "Cabin", sans-serif;
+}
+.navbar--link{
+    color:  #00363B;
+}
+.navbar--link:hover{
+    color: #F1F8E8;
 }

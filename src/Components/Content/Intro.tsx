@@ -1,11 +1,11 @@
 import "./Intro.scss";
-
 function Intro() {
   return (
     <>
-    <div className="content-container">
-        nigga
-    </div>
+      <div className="content-container">
+        <h2>Hello</h2>
+      </div>
+      <div></div>
     </>
   );
 }
